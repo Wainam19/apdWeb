@@ -1,0 +1,7 @@
+{
+  "name": "adpApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
