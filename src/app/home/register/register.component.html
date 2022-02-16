@@ -1,0 +1,159 @@
+<ion-grid class="ion-margin-vertical ion-padding-vertical">
+  <div class="container">
+    <ion-row class="ion-margin">
+      <ion-col class="ion-margin-horizontal">
+        <div class="title-container">
+          <ion-text class="form-title">Register Your Interest</ion-text>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-margin ion-padding-vertical">
+      <ion-col>
+        <div class="form-container">
+          <div class="mobile-input">
+            <form [formGroup]="formData" (ngSubmit)="onSubmit()">
+              <ion-row>
+                <ion-col class="ion-padding">
+                  <div class="custom-input">
+                    <ion-input
+                      placeholder="Name"
+                      formControlName="name"
+                    ></ion-input>
+                  </div>
+                  <div class="custom-input ion-margin-vertical">
+                    <ion-input
+                      placeholder="Email Address"
+                      formControlName="email"
+                    ></ion-input>
+                  </div>
+                  <div class="custom-input ion-margin-vertical">
+                    <ion-textarea
+                      rows="6"
+                      placeholder="Message"
+                      formControlName="message"
+                    ></ion-textarea>
+                  </div>
+                  <div class="custom-input">
+                    <ion-item lines="none">
+                      <ion-label>Occupation</ion-label>
+                      <ion-select
+                        interface="popover"
+                        formControlName="occupation"
+                      >
+                        #shadow-root
+                        <div part="placeholder" class="select-text"></div>
+                        <div part="icon" class="select-icon"></div>
+
+                        <ion-select-option value="mobile-developer"
+                          >Mobile Developer</ion-select-option
+                        >
+                        <ion-select-option value="designer"
+                          >Designer</ion-select-option
+                        >
+                        <ion-select-option value="developer"
+                          >Developer</ion-select-option
+                        >
+                        <ion-select-option value="other"
+                          >Other</ion-select-option
+                        >
+                      </ion-select>
+                      <div class="select-container">
+                        <ion-icon
+                          name="caret-down-outline"
+                          class="select-icons"
+                        ></ion-icon>
+                      </div>
+                    </ion-item>
+                  </div>
+                  <div class="custom-input ion-margin-vertical">
+                    <ion-input
+                      placeholder="Contact No"
+                      formControlName="contact"
+                    ></ion-input>
+                  </div>
+                  <ion-button
+                    type="submit"
+                    class="ion-text-uppercase submit-btn"
+                    >Submit Message</ion-button
+                  >
+                </ion-col>
+              </ion-row>
+            </form>
+          </div>
+          <div class="desktop-input">
+            <form [formGroup]="formData" (ngSubmit)="onSubmit()">
+              <ion-row>
+                <ion-col class="ion-padding">
+                  <div class="custom-input">
+                    <ion-input
+                      placeholder="Name"
+                      formControlName="name"
+                    ></ion-input>
+                  </div>
+                  <div class="custom-input ion-margin-vertical">
+                    <ion-input
+                      placeholder="Email Address"
+                      formControlName="email"
+                    ></ion-input>
+                  </div>
+                  <div class="custom-input ion-margin-vertical">
+                    <ion-textarea
+                      rows="6"
+                      placeholder="Message"
+                      formControlName="message"
+                    ></ion-textarea>
+                  </div>
+                  <ion-button
+                    type="submit"
+                    class="ion-text-uppercase submit-btn"
+                    >Submit Message</ion-button
+                  >
+                </ion-col>
+                <ion-col class="ion-padding">
+                  <div class="custom-input">
+                    <ion-item lines="none">
+                      <ion-label>Occupation</ion-label>
+                      <ion-select
+                        interface="popover"
+                        formControlName="occupation"
+                      >
+                        #shadow-root
+                        <div part="placeholder" class="select-text"></div>
+                        <div part="icon" class="select-icon"></div>
+
+                        <ion-select-option value="mobile-developer"
+                          >Mobile Developer</ion-select-option
+                        >
+                        <ion-select-option value="designer"
+                          >Designer</ion-select-option
+                        >
+                        <ion-select-option value="developer"
+                          >Developer</ion-select-option
+                        >
+                        <ion-select-option value="other"
+                          >Other</ion-select-option
+                        >
+                      </ion-select>
+                      <div class="select-container">
+                        <ion-icon
+                          name="caret-down-outline"
+                          class="select-icons"
+                        ></ion-icon>
+                      </div>
+                    </ion-item>
+                  </div>
+                  <div class="custom-input ion-margin-vertical">
+                    <ion-input
+                      placeholder="Contact No"
+                      formControlName="contact"
+                    ></ion-input>
+                  </div>
+                </ion-col>
+              </ion-row>
+            </form>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-grid>

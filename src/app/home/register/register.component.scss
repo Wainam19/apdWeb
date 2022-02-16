@@ -1,0 +1,104 @@
+.form-title {
+  font-family: "AvenirNext_Italic";
+  font-size: 60px;
+  font-weight: 600;
+  color: #00a99d;
+}
+
+.form-container {
+  border: 2px solid #dedede;
+  border-radius: 5px;
+}
+
+.custom-input {
+  border: 2px solid #dedede;
+  border-radius: 10px;
+  margin: 10px 0 30px 0;
+
+  ion-input,
+  ion-textarea {
+    font-family: "Myriad Pro";
+    font-style: italic;
+    font-size: 12px;
+    --padding-top: 20px;
+    --padding-end: 0;
+    --padding-bottom: 20px;
+    --padding-start: 20px;
+  }
+
+  ion-item {
+    font-family: "Myriad Pro";
+    font-style: italic;
+    font-size: 12px;
+    color: #8a8a8a;
+    border-radius: 10px;
+
+    ion-select::part(icon) {
+      display: none;
+      width: 30px !important;
+      height: 30px !important;
+      background: black !important;
+      border-radius: 5px !important;
+    }
+
+    .select-container {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      background-color: black;
+      border-radius: 5px;
+      margin-left: 10px;
+
+      .select-icons {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: #e4e4e4;
+      }
+    }
+  }
+}
+
+.submit-btn {
+  width: 330px;
+  font-family: "Raleway-Bold";
+  font-size: 13px;
+  color: #e4e4e4;
+  --background: #00a99d;
+  --border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-input {
+    display: none;
+  }
+
+  .desktop-input {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title-container {
+    text-align: center;
+
+    .form-title {
+      font-size: 30px;
+    }
+  }
+
+  .mobile-input {
+    display: block;
+  }
+
+  .desktop-input {
+    display: none;
+  }
+
+  .submit-btn {
+    width: unset;
+    display: block;
+  }
+}

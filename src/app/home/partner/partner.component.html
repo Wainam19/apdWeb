@@ -1,0 +1,40 @@
+<ion-grid class="main-container">
+  <div class="partner-space container">
+    <ion-row class="ion-margin">
+      <ion-col size-lg="3" size-md="6" size-sm="6" size-xs="6">
+        <div class="partner-container">
+          <ion-icon name="logo-windows" class="partner-icon"></ion-icon>
+        </div>
+      </ion-col>
+      <ion-col size-lg="3" size-md="6" size-sm="6" size-xs="6">
+        <div class="partner-container">
+          <ion-icon name="logo-youtube" class="partner-icon"></ion-icon>
+        </div>
+      </ion-col>
+      <ion-col size-lg="3" size-md="6" size-sm="6" size-xs="6">
+        <div class="partner-container">
+          <ion-icon name="logo-github" class="partner-icon"></ion-icon>
+        </div>
+      </ion-col>
+      <ion-col size-lg="3" size-md="6" size-sm="6" size-xs="6">
+        <div class="partner-container">
+          <ion-icon name="logo-python" class="partner-icon"></ion-icon>
+        </div>
+      </ion-col>
+    </ion-row>
+    <span class="left-arrow">
+      <ion-icon
+        name="caret-back-outline"
+        class="arrow1"
+        (click)="plusSlides(-1)"
+      ></ion-icon>
+    </span>
+    <span class="right-arrow">
+      <ion-icon
+        name="caret-forward-outline"
+        class="arrow2"
+        (click)="plusSlides(1)"
+      ></ion-icon>
+    </span>
+  </div>
+</ion-grid>

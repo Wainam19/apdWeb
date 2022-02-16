@@ -1,0 +1,126 @@
+.skill-background {
+  position: relative;
+  background-color: #383838;
+}
+
+.skill-header {
+  margin-top: 60px;
+}
+
+.middle-pst {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .middle-container {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    background-color: #00a99d;
+    border-radius: 5px;
+
+    .middle-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-45deg);
+      color: white;
+      font-size: 22px;
+    }
+  }
+}
+
+//Circle
+.circle {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-color: #404040;
+}
+
+.circle-border-75 {
+  position: relative;
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  background-color: #00a99d;
+  background-image: linear-gradient(180deg, #00a99d 50%, transparent 50%),
+    linear-gradient(90deg, #f0f0f0 50%, transparent 50%);
+}
+
+.circle-border-92 {
+  position: relative;
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  background-color: #00a99d;
+  background-image: linear-gradient(180deg, #00a99d 50%, transparent 50%),
+    linear-gradient(145deg, #f0f0f0 50%, transparent 50%);
+}
+
+.circle-border-68 {
+  position: relative;
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  background-color: #00a99d;
+  background-image: linear-gradient(180deg, #00a99d 50%, transparent 50%),
+    linear-gradient(68deg, #f0f0f0 50%, transparent 50%);
+}
+
+.circle-border-100 {
+  position: relative;
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  background-color: #00a99d;
+  background-image: linear-gradient(180deg, #00a99d 50%, transparent 50%),
+    linear-gradient(180deg, #f0f0f0 50%, transparent 50%);
+}
+
+.circle-border-83 {
+  position: relative;
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  background-color: #00a99d;
+  background-image: linear-gradient(180deg, #00a99d 50%, transparent 50%),
+    linear-gradient(97deg, #f0f0f0 50%, transparent 50%);
+}
+
+.circle-border-50 {
+  position: relative;
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  background-color: #00a99d;
+  background-image: linear-gradient(180deg, #00a99d 50%, transparent 50%),
+    linear-gradient(0deg, #f0f0f0 50%, transparent 50%);
+}
+
+.circle-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Raleway-Bolder";
+  font-size: 30px;
+  color: white;
+}
+
+.skills-text {
+  font-family: "Raleway-Bolder";
+  color: #8a8a8a;
+}

@@ -1,0 +1,18 @@
+.subscribe-container {
+  --background: #383838;
+  font-family: "Raleway-Bolder";
+  font-size: 30px;
+  --color: white !important;
+
+  .spacer {
+    margin: 60px;
+  }
+
+  .back-btn {
+    font-family: "Raleway-Bold";
+    font-size: 13px;
+    color: #e4e4e4;
+    --background: #00a99d;
+    --border-radius: 5px;
+  }
+}

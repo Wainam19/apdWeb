@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -24,3 +24,118 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+//Raleway Fonts
+@font-face {
+  font-family: "Raleway";
+  src: url(./assets/fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url(./assets/fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-Bolder";
+  src: url(./assets/fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "AvenirNext_Italic";
+  src: url(./assets/fonts/Metropolis-RegularItalic.otf);
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url(./assets/fonts/MYRIADPRO-REGULAR.OTF);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.text-white {
+  color: white;
+}
+
+.margin-8 {
+  margin: 8px 0 8px 0;
+}
+
+//Ion Menu
+.menuItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuLabel {
+  font-weight: bold;
+}
+
+//Content Max-Width
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+//Section Header
+.title {
+  font-family: "Raleway-Bolder";
+  font-size: 26px;
+
+  .c-title {
+    margin-left: 8px;
+    color: #00a99d;
+  }
+}
+
+//Sides Shapes
+.shape1 {
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+  background-color: #00a99d;
+}
+
+.shape2 {
+  width: 13px;
+  height: 13px;
+  opacity: 0.7;
+  transform: rotate(45deg);
+  background-color: #00a99d;
+}
+
+.shape3 {
+  width: 11px;
+  height: 11px;
+  opacity: 0.4;
+  transform: rotate(45deg);
+  background-color: #00a99d;
+}
+
+.subtitle {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 500;
+  color: #8a8a8a;
+}
+
+//Other
+.offer-text {
+  font-family: "Raleway-Bolder";
+  font-size: 14px;
+  color: #606060;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 22px;
+  }
+}
